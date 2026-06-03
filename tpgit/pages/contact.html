@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Mamadou Thiam</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<input type="checkbox" id="nav-toggle" class="nav-toggle-check">
+
+
+<header>
+    <nav class="navbar">
+        <a href="../index.html" class="logo">Portfolio</a>
+        <label for="nav-toggle" class="burger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="nav-links">
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="gallery.html">Galerie</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="page-hero">
+        <div class="container">
+            <div class="eyebrow">Contact</div>
+            <div class="accent-line"></div>
+            <h1>Prenons contact</h1>
+            <p class="page-intro">
+                N'hésitez pas à me contacter pour toute opportunité, collaboration ou question.
+            </p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-layout">
+
+                <!-- Formulaire -->
+                <form class="card contact-form" action="#" method="post">
+                    <h3>Envoyer un message</h3>
+
+                    <div class="form-group">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Adresse email</label>
+                        <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Votre message..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Envoyer →</button>
+                </form>
+
+                <!-- Infos -->
+                <div class="contact-info-col">
+                    <div class="card info-card">
+
+                        <div>
+                            <p class="info-label">Localisation</p>
+                            <p class="info-value">Dakar, Sénégal</p>
+                        </div>
+                    </div>
+                    <div class="card info-card">
+                        
+                        <div>
+                            <p class="info-label">Établissement</p>
+                            <p class="info-value">UFR STA — UAM</p>
+                        </div>
+                    </div>
+                    <div class="card info-card">
+
+                        <div>
+                            <p class="info-label">Niveau</p>
+                            <p class="info-value">Licence 3 Informatique</p>
+                        </div>
+                    </div>
+                    <div class="card info-card">
+
+                        <div>
+                            <p class="info-label">Année académique</p>
+                            <p class="info-value">2025 – 2026</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 Mamadou Thiam — <a href="tel:+221782057932" class="footer-signature">Designed by MT</a></p>
+</footer>
+</body>
+</html>
